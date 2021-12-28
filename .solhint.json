@@ -1,0 +1,18 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "compiler-version": ["error", "^0.5.6"],
+    "func-visibility": ["warn", { "ignoreConstructors": true }],
+    "no-inline-assembly": false,
+    "quotes": "double",
+    "avoid-low-level-calls": "off",
+    "reason-string": ["off", { "maxLength": 50 }],
+    "no-empty-blocks": "off",
+    "avoid-call-value": "off",
+    "visibility-modifier-order": "off",
+    "state-visibility": "off",
+    "not-rely-on-time": "off",
+    "no-unused-vars": "off",
+    "allowUnlimitedContractSize": true
+  }
+}
